@@ -14,6 +14,7 @@ import {
 } from './data/menuData';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import { resolveDriveOrImageUrl } from './components/BrandEmblem';
 import { ProductModal } from './components/ProductModal';
 import { OrderDrawer } from './components/OrderDrawer';
 import { PriceEditorModal } from './components/PriceEditorModal';
@@ -96,6 +97,20 @@ export default function App() {
       })
     );
   }, [menuItems]);
+
+  // Keep browser favicon synced with GAIN 24/7 logo
+  useEffect(() => {
+    const iconHref = customLogoUrl
+      ? resolveDriveOrImageUrl(customLogoUrl)
+      : '/favicon.svg';
+    let link = document.querySelector<HTMLLinkElement>("link[rel~='icon']");
+    if (!link) {
+      link = document.createElement('link');
+      link.rel = 'icon';
+      document.head.appendChild(link);
+    }
+    link.href = iconHref;
+  }, [customLogoUrl]);
 
   const handleNavigate = (page: PageId, filter?: MenuFilterTab) => {
     if (filter) {

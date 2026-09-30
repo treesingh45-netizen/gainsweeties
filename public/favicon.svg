@@ -1,0 +1,82 @@
+<svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Dark Chocolate Circle -->
+  <circle cx="250" cy="250" r="248" fill="#381709" />
+
+  <!-- Thick Cream Inner Border Ring -->
+  <circle cx="250" cy="250" r="230" stroke="#F6EAD9" stroke-width="11" />
+
+  <!-- Large Serif "G" -->
+  <path
+    d="M286 154 C282 128 260 112 228 112 C178 112 145 150 145 202 C145 252 180 282 225 282 C242 282 256 278 268 271 V210 H245 C228 210 218 206 214 202 V197 H276 V284 C258 293 236 298 213 298 C154 298 116 258 116 202 C116 144 162 96 226 96 C256 96 278 106 290 116 L290 154 H286 Z"
+    fill="#F6EAD9"
+  />
+
+  <!-- Bottom Serif Base of the "G" / "I" Vertical Pillar -->
+  <path
+    d="M222 198 H268 V282 C268 292 274 296 288 297 V303 H204 V297 C218 296 222 292 222 282 V198 Z"
+    fill="#F6EAD9"
+  />
+
+  <!-- Overlapping Classic Serif "N" -->
+  <path
+    d="M235 162 H282 L352 252 V180 C352 169 345 165 330 164 V158 H378 V164 C364 165 359 169 359 180 V304 H348 L266 198 V282 C266 292 273 296 288 297 V303 H235 V297 C248 296 254 292 254 282 V178 C254 168 247 164 235 163 V162 Z"
+    fill="#F6EAD9"
+  />
+
+  <!-- Melted Caramel Drip on Top Curve of "G" -->
+  <path
+    d="M150 152 C166 122 196 103 234 103 C252 103 268 108 278 116 C264 116 254 123 252 136 C250 146 248 156 242 156 C236 156 236 141 228 141 C220 141 221 163 213 163 C205 163 206 143 197 144 C188 145 194 188 181 188 C168 188 175 148 166 149 C160 150 161 159 156 159 C151 159 149 155 150 152 Z"
+    fill="#BE7432"
+    stroke="#D89655"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+
+  <!-- Caramel Crescent Orbital Swoosh across "GN" -->
+  <path
+    d="M140 264 C166 288 238 272 308 232 C365 199 392 158 362 142 C408 144 412 186 356 226 C292 272 182 308 140 264 Z"
+    fill="#C68342"
+  />
+
+  <!-- "GAIN 24/7" Serif Wordmark -->
+  <text
+    x="250"
+    y="376"
+    text-anchor="middle"
+    fill="#F6EAD9"
+    font-family="Georgia, serif"
+    font-weight="700"
+    font-size="60"
+    letter-spacing="2"
+  >
+    GAIN 24/7
+  </text>
+
+  <!-- Bottom Horizontal Bars & Twin Cocoa Leaves -->
+  <line
+    x1="126"
+    y1="408"
+    x2="216"
+    y2="408"
+    stroke="#C68342"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+  <path
+    d="M248 418 C234 418 225 406 224 392 C237 392 246 401 248 418 Z"
+    fill="#C68342"
+  />
+  <path
+    d="M251 418 C265 418 275 406 276 392 C263 392 253 401 251 418 Z"
+    fill="#C68342"
+  />
+  <line
+    x1="284"
+    y1="408"
+    x2="374"
+    y2="408"
+    stroke="#C68342"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+</svg>
