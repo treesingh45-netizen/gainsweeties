@@ -1,0 +1,6 @@
+{
+  "name": "GAIN 24/7 — Your Midnight Craving Partner",
+  "description": "Premium dessert café and late-night bakery in Gulshan-e-Iqbal, Karachi serving fudge brownies, artisanal ice cream, sundaes, thick shakes, cookies, and iced coffee frappes with direct WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
